@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Practice5" verbose="1">
+
+    <test name="Valid user login/sign out">
+        <classes>
+            <class name="Practice5.tests.LoginSignOutTest" />
+        </classes>
+    </test>
+
+    <test name="Invalid users login">
+        <classes>
+            <class name="Practice5.tests.InvalidUsersLogin" />
+        </classes>
+    </test>
+
+    <test name="Post creation and publication">
+        <classes>
+            <class name="Practice5.tests.CreateAndPublishNewPost" />
+        </classes>
+    </test>
+
+    <test name="Page creation and publication">
+        <classes>
+            <class name="Practice5.tests.CreateAndPublishNewPage" />
+        </classes>
+    </test>
+
+    <test name="Post creation and drafting">
+        <classes>
+            <class name="Practice5.tests.CreateAndDraftNewPost" />
+        </classes>
+    </test>
+
+    <test name="Page creation, preview and publishing">
+        <classes>
+            <class name="Practice5.tests.CreatePreviewAndPublishNewPage" />
+        </classes>
+    </test>
+
+    <test name="Inviting user">
+        <classes>
+            <class name="Practice5.tests.InviteNewUser" />
+        </classes>
+    </test>
+
+    <test name="Post creation, publication, edit and validation">
+        <classes>
+            <class name="Practice5.tests.CreatePublishEditAndValidateNewPost" />
+        </classes>
+    </test>
+
+    <test name="Page creation and deletion">
+        <classes>
+            <class name="Practice5.tests.CreateAndDeleteNewPage" />
+        </classes>
+    </test>
+</suite>

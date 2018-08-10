@@ -1,0 +1,26 @@
+2018-08-10 11:30:34 [main] INFO  BaseTest - LoginSignOutTest
+2018-08-10 11:30:40 [main] INFO  BaseTest - Open browser Chrome
+2018-08-10 11:30:40 [main] INFO  BaseTest - Navigate to: http://testing.webtic.info/wordpress/wp-login.php
+2018-08-10 11:30:50 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'admin'
+2018-08-10 11:30:51 [main] INFO  WebTextInput - Current value	: admin
+	Expected value	: admin
+2018-08-10 11:30:51 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'admin_pass!'
+2018-08-10 11:30:51 [main] INFO  WebTextInput - Current value	: admin_pass!
+	Expected value	: admin_pass!
+2018-08-10 11:30:51 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Dashboard
+	2nd:Dashboard
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Element Welcome Msg is displayed
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Check content coincidence for Welcome Msg
+2018-08-10 11:30:55 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Welcome to WordPress!
+	2nd:Welcome to WordPress!
+2018-08-10 11:30:56 [main] INFO  AbstractPOM - Clicking submenu: Hi, admin -> Log Out
+2018-08-10 11:30:59 [main] INFO  WebTypifiedElement - Element Log Out Msg is displayed
+2018-08-10 11:30:59 [main] INFO  WebTypifiedElement - Check content coincidence for Log Out Msg
+2018-08-10 11:30:59 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:You are now logged out.
+	2nd:You are now logged out.

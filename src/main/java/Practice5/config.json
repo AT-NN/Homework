@@ -1,0 +1,6 @@
+{
+  "url" : "http://testing.webtic.info/wordpress/wp-login.php",
+  "user" : "admin",
+  "password" : "admin_pass!",
+  "browser" : "Chrome"
+}

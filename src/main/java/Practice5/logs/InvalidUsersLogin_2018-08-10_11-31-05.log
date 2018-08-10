@@ -1,0 +1,42 @@
+2018-08-10 11:31:05 [main] INFO  BaseTest - InvalidUsersLogin
+2018-08-10 11:31:08 [main] INFO  BaseTest - Open browser Chrome
+2018-08-10 11:31:08 [main] INFO  BaseTest - Navigate to: http://testing.webtic.info/wordpress/wp-login.php
+2018-08-10 11:31:18 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'invalidUser'
+2018-08-10 11:31:19 [main] INFO  WebTextInput - Current value	: invalidUser
+	Expected value	: invalidUser
+2018-08-10 11:31:19 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'admin_pass!'
+2018-08-10 11:31:19 [main] INFO  WebTextInput - Current value	: admin_pass!
+	Expected value	: admin_pass!
+2018-08-10 11:31:19 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:31:20 [main] INFO  WebTypifiedElement - Element Error Msg is displayed
+2018-08-10 11:31:20 [main] INFO  WebTypifiedElement - Check content coincidence for Error Msg
+2018-08-10 11:31:20 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:ERROR: Invalid username. Lost your password?
+	2nd:ERROR: Invalid username. Lost your password?
+2018-08-10 11:31:22 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'invalidUser'
+2018-08-10 11:31:23 [main] INFO  WebTextInput - Current value	: invalidUser
+	Expected value	: invalidUser
+2018-08-10 11:31:23 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'invalidPassword'
+2018-08-10 11:31:23 [main] INFO  WebTextInput - Current value	: invalidPassword
+	Expected value	: invalidPassword
+2018-08-10 11:31:23 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:31:25 [main] INFO  WebTypifiedElement - Element Error Msg is displayed
+2018-08-10 11:31:25 [main] INFO  WebTypifiedElement - Check content coincidence for Error Msg
+2018-08-10 11:31:25 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:ERROR: Invalid username. Lost your password?
+	2nd:This test case should fail.
+2018-08-10 11:31:25 [main] ERROR BaseTest - InvalidUsersLogin FAILED.
+Please check screenshot file in C:\Users\C5267817\IdeaProjects\Homework\src\main\java\Practice5\screenshots\
+
+2018-08-10 11:31:27 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'admin'
+2018-08-10 11:31:27 [main] INFO  WebTextInput - Current value	: admin
+	Expected value	: admin
+2018-08-10 11:31:27 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'invalidPassword'
+2018-08-10 11:31:28 [main] INFO  WebTextInput - Current value	: invalidPassword
+	Expected value	: invalidPassword
+2018-08-10 11:31:28 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:31:29 [main] INFO  WebTypifiedElement - Element Error Msg is displayed
+2018-08-10 11:31:29 [main] INFO  WebTypifiedElement - Check content coincidence for Error Msg
+2018-08-10 11:31:29 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:ERROR: The password you entered for the username admin is incorrect. Lost your password?
+	2nd:ERROR: The password you entered for the username admin is incorrect. Lost your password?

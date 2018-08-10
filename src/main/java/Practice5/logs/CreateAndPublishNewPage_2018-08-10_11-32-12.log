@@ -1,0 +1,36 @@
+2018-08-10 11:32:12 [main] INFO  BaseTest - CreateAndPublishNewPage
+2018-08-10 11:32:16 [main] INFO  BaseTest - Open browser Chrome
+2018-08-10 11:32:16 [main] INFO  BaseTest - Navigate to: http://testing.webtic.info/wordpress/wp-login.php
+2018-08-10 11:32:25 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'admin'
+2018-08-10 11:32:25 [main] INFO  WebTextInput - Current value	: admin
+	Expected value	: admin
+2018-08-10 11:32:25 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'admin_pass!'
+2018-08-10 11:32:26 [main] INFO  WebTextInput - Current value	: admin_pass!
+	Expected value	: admin_pass!
+2018-08-10 11:32:26 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Dashboard
+	2nd:Dashboard
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Element Welcome Msg is displayed
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Check content coincidence for Welcome Msg
+2018-08-10 11:32:29 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Welcome to WordPress!
+	2nd:Welcome to WordPress!
+2018-08-10 11:32:30 [main] INFO  AbstractPOM - Clicking submenu: Pages -> Add New
+2018-08-10 11:32:32 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:32:32 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:32:32 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Add New Page
+	2nd:Add New Page
+2018-08-10 11:32:32 [main] INFO  WebTextInput - Sendkeys for element Post Title Input with value:'Page title_2018-08-10_11-32-32'
+2018-08-10 11:32:33 [main] INFO  WebTextInput - Current value	: Page title_2018-08-10_11-32-32
+	Expected value	: Page title_2018-08-10_11-32-32
+2018-08-10 11:32:34 [main] INFO  WebTypifiedElement - Clicking on element Btn Publish
+2018-08-10 11:32:38 [main] INFO  WebTypifiedElement - Clicking on element Lnk All Pages
+2018-08-10 11:32:40 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:32:40 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:32:40 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Pages
+	2nd:Pages

@@ -1,0 +1,44 @@
+2018-08-10 11:34:03 [main] INFO  BaseTest - InviteNewUser
+2018-08-10 11:34:06 [main] INFO  BaseTest - Open browser Chrome
+2018-08-10 11:34:06 [main] INFO  BaseTest - Navigate to: http://testing.webtic.info/wordpress/wp-login.php
+2018-08-10 11:34:14 [main] INFO  WebTextInput - Sendkeys for element User Name Input with value:'admin'
+2018-08-10 11:34:14 [main] INFO  WebTextInput - Current value	: admin
+	Expected value	: admin
+2018-08-10 11:34:14 [main] INFO  WebTextInput - Sendkeys for element User Pass Input with value:'admin_pass!'
+2018-08-10 11:34:14 [main] INFO  WebTextInput - Current value	: admin_pass!
+	Expected value	: admin_pass!
+2018-08-10 11:34:14 [main] INFO  WebTypifiedElement - Clicking on element Submit Btn
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Dashboard
+	2nd:Dashboard
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Element Welcome Msg is displayed
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Check content coincidence for Welcome Msg
+2018-08-10 11:34:17 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Welcome to WordPress!
+	2nd:Welcome to WordPress!
+2018-08-10 11:34:18 [main] INFO  AbstractPOM - Clicking submenu: Users -> Add New
+2018-08-10 11:34:20 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:34:20 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:34:20 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Add New User
+	2nd:Add New User
+2018-08-10 11:34:20 [main] INFO  WebTextInput - Sendkeys for element Input Username with value:'user_2018-08-10_11-34-20'
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Current value	: user_2018-08-10_11-34-20
+	Expected value	: user_2018-08-10_11-34-20
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Sendkeys for element Input Email with value:'email_2018-08-10_11-34-20@practice5.com'
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Current value	: email_2018-08-10_11-34-20@practice5.com
+	Expected value	: email_2018-08-10_11-34-20@practice5.com
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Sendkeys for element Input First Name with value:'Ivan'
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Current value	: Ivan
+	Expected value	: Ivan
+2018-08-10 11:34:21 [main] INFO  WebTextInput - Sendkeys for element Input Last Name with value:'Ivanov'
+2018-08-10 11:34:22 [main] INFO  WebTextInput - Current value	: Ivanov
+	Expected value	: Ivanov
+2018-08-10 11:34:22 [main] INFO  WebTypifiedElement - Clicking on element Btn Add New User
+2018-08-10 11:34:27 [main] INFO  WebTypifiedElement - Element Page Name Label is displayed
+2018-08-10 11:34:27 [main] INFO  WebTypifiedElement - Check content coincidence for Page Name Label
+2018-08-10 11:34:27 [main] INFO  WebTypifiedElement - Check 2 strings if equals
+	1st:Users Add New
+	2nd:Users Add New
